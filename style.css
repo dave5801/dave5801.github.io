@@ -1,0 +1,87 @@
+#periodic-table > div > div{
+	
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.table-main > div > div{
+	border-radius: 5px;
+	border: 1px;
+	border-style: solid;
+	margin-bottom: 20px;
+	
+}
+
+.hydrogen {
+	color: #D4AF37;
+}
+
+.alkali-metals {
+	color: #FF6600;
+}
+
+.alkali-earth-metals{
+	color: #800000;
+}
+
+.noble-gas{
+	color: #6600ff;
+}
+
+.lanthanide > div{
+	color: #0000ff;
+	border-radius: 5px;
+	border: 1px;
+	border-style: solid;
+	margin-left: -1px;
+	display: inline-block;
+	margin-bottom: 2px;
+}
+
+.actinide > div{
+	color: #6600cc;
+	border-radius: 5px;
+	border: 1px;
+	border-style: solid;
+	margin-left: -1px;
+	display: inline-block;
+}
+
+/*Begin Lanthanides*/
+.la{
+	color: #0000ff;
+}
+
+.ac{
+	color: #6600cc;
+}
+
+.unknown{
+	color: #00cc00;
+}
+
+.transition-metal {
+	/*blank*/
+}
+
+.post-transition-metal{
+	color: #669999;
+}
+
+.metaloid{
+	color: #ff33cc;
+}
+
+.poly-atomic-nonmetal{
+	color: #cccc00;
+}
+
+.diatomic-non-metal{
+	color: #666699;
+}
+
+div > div > div > div:hover {
+  background: blue;
+}

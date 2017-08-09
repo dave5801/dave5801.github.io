@@ -1,0 +1,257 @@
+<html>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="periodic-table.html">The Periodic Table of Elements</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="pages/learn-more.html">Learn More</a></li>
+	      <li><a href="pages/about.html">About</a></li> 
+	    </ul>
+	  </div>
+	</nav>
+	
+<body>
+	<div>Click on an Element to Learn More (Initial Draft of Web Project)</div>
+
+	<div id = "periodic-table">
+
+	<div class="table-main">
+		<div class = "alkali-metals">
+			<div class="hydrogen" onclick="getElementInfo('H');">H</div>
+			<div onclick="getElementInfo('Li');">Li</div>
+			<div onclick="getElementInfo('Na');">Na</div>
+			<div onclick="getElementInfo('K');">K</div>
+			<div onclick="getElementInfo('Rb');">Rb</div>
+			<div onclick="getElementInfo('Cs');">Cs</div>
+			<div onclick="getElementInfo('Fr');">Fr</div>
+		</div>
+		<div class = "alkali-earth-metals">
+			<div onclick="getElementInfo('Be');">Be</div>
+			<div onclick="getElementInfo('Mg');">Mg</div>
+			<div onclick="getElementInfo('Ca');">Ca</div>
+			<div onclick="getElementInfo('Sr');">Sr</div>
+			<div onclick="getElementInfo('Ba');">Ba</div>
+			<div onclick="getElementInfo('Ra');">Ra</div>
+		</div>
+		<div class = "group-3">
+			<div class="transition-metals" onclick="getElementInfo('Sc');">Sc</div>
+			<div class="transition-metals" onclick="getElementInfo('Y');">Y</div>
+			<div class="la" onclick="getElementInfo('La');">La</div>
+			<div class="ac" onclick="getElementInfo('Ac');">Ac</div>
+		</div>
+		<div class="transition-metals">
+			<div onclick="getElementInfo('Ti');">Ti</div>
+			<div onclick="getElementInfo('Zr');">Zr</div>
+			<div onclick="getElementInfo('Hf');">Hf</div>
+			<div onclick="getElementInfo('Rf');">Rf</div>
+		</div>
+		<div class="transition-metals">
+			<div onclick="getElementInfo('V');">V</div>
+			<div onclick="getElementInfo('Nb');">Nb</div>
+			<div onclick="getElementInfo('Ta');">Ta</div>
+			<div onclick="getElementInfo('Db');">Db</div>
+		</div>
+		<div class="transition-metals">
+			<div onclick="getElementInfo('Cr');">Cr</div>
+			<div onclick="getElementInfo('Mo');">Mo</div>
+			<div onclick="getElementInfo('W');">W</div>
+			<div onclick="getElementInfo('Sg');">Sg</div>
+		</div>
+		<div class="transition-metals">
+			<div onclick="getElementInfo('Mn');">Mn</div>
+			<div onclick="getElementInfo('Tc');">Tc</div>
+			<div onclick="getElementInfo('Re');">Re</div>
+			<div onclick="getElementInfo('Bh');">Bh</div>
+		</div>
+		<div class="transition-metals">
+			<div onclick="getElementInfo('Fe');">Fe</div>
+			<div onclick="getElementInfo('Ru');">Ru</div>
+			<div onclick="getElementInfo('Os');">Os</div>
+			<div onclick="getElementInfo('Hs');">Hs</div>
+		</div>
+		<div class = "group-9">
+			<div class="transition-metals" onclick="getElementInfo('Co');">Co</div>
+			<div class="transition-metals" onclick="getElementInfo('Rh');">Rh</div>
+			<div class="transition-metals" onclick="getElementInfo('Ir');">Ir</div>
+			<div class = "unknown" onclick="getElementInfo('Mt');">Mt</div>
+		</div>
+		<div class = "group-10">
+			<div class="transition-metals" onclick="getElementInfo('Ni');">Ni</div>
+			<div class="transition-metals" onclick="getElementInfo('Pd');">Pd</div>
+			<div class="transition-metals" onclick="getElementInfo('Pt');">Pt</div>
+			<div class = "unknown" onclick="getElementInfo('Ds');">Ds</div>
+		</div>
+		<div class = "group-11">
+			<div class="transition-metals" onclick="getElementInfo('Cu');">Cu</div>
+			<div class="transition-metals" onclick="getElementInfo('Ag');">Ag</div>
+			<div class="transition-metals" onclick="getElementInfo('Au');">Au</div>
+			<div class = "unknown" onclick="getElementInfo('Rg');">Rg</div>
+		</div>
+		<div class="transition-metals">
+			<div onclick="getElementInfo('Zn');">Zn</div>
+			<div onclick="getElementInfo('Cd');">Cd</div>
+			<div onclick="getElementInfo('Hg');">Hg</div>
+			<div onclick="getElementInfo('Cn');">Cn</div>
+		</div>
+		<div class = "group-13">
+			<div class="metaloid" onclick="getElementInfo('B');">B</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Al');">Al</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Ga');">Ga</div>
+			<div class="post-transition-metal" onclick="getElementInfo('In');">In</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Tl');">Tl</div>
+			<div class = "unknown" onclick="getElementInfo('Nh');">Nh</div>	
+		</div>
+		<div class = "group-14">
+			<div class="poly-atomic-nonmetal" onclick="getElementInfo('C');">C</div>
+			<div class="metaloid" onclick="getElementInfo('Si');">Si</div>
+			<div class="metaloid" onclick="getElementInfo('Ge');">Ge</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Sn');">Sn</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Pb');">Pb</div>
+			<div class = "unknown" onclick="getElementInfo('Fl');">Fl</div>	
+		</div>
+		<div class = "group-15">
+			<div class="diatomic-non-metal" onclick="getElementInfo('N');">N</div>
+			<div class="poly-atomic-nonmetal" onclick="getElementInfo('P');">P</div>
+			<div class="metaloid" onclick="getElementInfo('As');">As</div>
+			<div class="metaloid" onclick="getElementInfo('Sb');">Sb</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Bi');">Bi</div>
+			<div class = "unknown" onclick="getElementInfo('Mc');">Mc</div>	
+		</div>
+		<div class = "group-16">
+			<div class="diatomic-non-metal" onclick="getElementInfo('O');">O</div>
+			<div class="poly-atomic-nonmetal" onclick="getElementInfo('S');">S</div>
+			<div class="poly-atomic-nonmetal" onclick="getElementInfo('Se');">Se</div>
+			<div class="metaloid" onclick="getElementInfo('Te');">Te</div>
+			<div class="post-transition-metal" onclick="getElementInfo('Po');">Po</div>
+			<div class = "unknown" onclick="getElementInfo('Lv');">Lv</div>	
+		</div>
+		<div class = "group-17">
+			<div class="diatomic-non-metal" onclick="getElementInfo('F');">F</div>
+			<div class="diatomic-non-metal" onclick="getElementInfo('Cl');">Cl</div>
+			<div class="diatomic-non-metal" onclick="getElementInfo('Br');">Br</div>
+			<div class="diatomic-non-metal" onclick="getElementInfo('I');">I</div>
+			<div class="metaloid" onclick="getElementInfo('At');">At</div>
+			<div class = "unknown" onclick="getElementInfo('Ts');">Ts</div>	
+		</div>
+		<div class = "group-18">
+			<div class = "noble-gas" onclick="getElementInfo('He');">He</div>
+			<div class = "noble-gas" onclick="getElementInfo('Ne');">Ne</div>
+			<div class = "noble-gas" onclick="getElementInfo('Ar');">Ar</div>
+			<div class = "noble-gas" onclick="getElementInfo('Kr');">Kr</div>
+			<div class = "noble-gas" onclick="getElementInfo('Xe');">Xe</div>
+			<div class = "noble-gas" onclick="getElementInfo('Rn');">Rn</div>
+			<div class = "unknown" onclick="getElementInfo('Og');">Og</div>
+		</div>
+	</div>
+	<div class = "lanthanide">
+		<div class = "group-4">
+			<div onclick="getElementInfo('Ce');">Ce</div>
+		</div>
+		<div class = "group-5">
+			<div onclick="getElementInfo('Pr');">Pr</div>
+		</div>
+		<div class = "group-6">
+			<div onclick="getElementInfo('Nd');">Nd</div>
+		</div>
+		<div class = "group-7">
+			<div onclick="getElementInfo('Pm');">Pm</div>
+		</div>
+		<div class = "group-8">
+			<div onclick="getElementInfo('Sm');">Sm</div>
+		</div>
+		<div class = "group-9">
+			<div onclick="getElementInfo('Eu');">Eu</div>
+		</div>
+		<div class = "group-10">
+			<div onclick="getElementInfo('Gd');">Gd</div>
+		</div>
+		<div class = "group-11">
+			<div onclick="getElementInfo('Tb');">Tb</div>
+		</div>
+		<div class = "group-12">
+			<div onclick="getElementInfo('Dy');">Dy</div>
+		</div>
+		<div class = "group-13">
+			<div onclick="getElementInfo('Ho');">Ho</div>
+		</div>
+		<div class = "group-14">
+			<div onclick="getElementInfo('Er');">Er</div>
+		</div>
+		<div class = "group-15">
+			<div onclick="getElementInfo('Tm');">Tm</div>
+		</div>
+		<div class = "group-16">
+			<div onclick="getElementInfo('Yb');">Yb</div>
+		</div>
+		<div class = "group-17">
+			<div onclick="getElementInfo('Lu');">Lu</div>
+		</div>
+
+	</div>
+	<div class = "actinide">
+		<div class = "group-4">
+			<div onclick="getElementInfo('Th');">Th</div>
+		</div>
+		<div class = "group-5">
+			<div onclick="getElementInfo('Pa');">Pa</div>
+		</div>
+		<div class = "group-6">
+			<div onclick="getElementInfo('U');">U</div>
+		</div>
+		<div class = "group-7">
+			<div onclick="getElementInfo('Np');">Np</div>
+		</div>
+		<div class = "group-8">
+			<div onclick="getElementInfo('Pu');">Pu</div>
+		</div>
+		<div class = "group-9">
+			<div onclick="getElementInfo('Am');">Am</div>
+		</div>
+		<div class = "group-10">
+			<div onclick="getElementInfo('Cm');">Cm</div>
+		</div>
+		<div class = "group-11">
+			<div onclick="getElementInfo('Bk');">Bk</div>
+		</div>
+		<div class = "group-12">
+			<div onclick="getElementInfo('Cf');">Cf</div>
+		</div>
+		<div class = "group-13">
+			<div onclick="getElementInfo('Es');">Es</div>
+		</div>
+		<div class = "group-14">
+			<div onclick="getElementInfo('Fm');">Fm</div>
+		</div>
+		<div class = "group-15">
+			<div onclick="getElementInfo('Md');">Md</div>
+		</div>
+		<div class = "group-16">
+			<div onclick="getElementInfo('No');">No</div>
+		</div>
+		<div class = "group-17">
+			<div onclick="getElementInfo('Lr');">Lr</div>
+		</div>
+	</div>
+	</div>
+	<p id="element_display"></p>
+</body>
+<!----><div id = "liked"><div>
+	<!--
+	<div>Alkaline Metals</div>
+	<div>Alkaline Earth Metals</div>
+	<div>Transition Metals</div>
+	<div>Lanthanides</div>
+	<div>Actinides</div>
+	<div>Metaloids</div>
+	<div>Polyatomic NonMetals</div>
+	<div>Diatomic NonMetals</div>
+	<div>Noble Gases</div>
+	<div>Unknown Chemical Properties</div>-->
+<script src="script.js"></script>
+</html>

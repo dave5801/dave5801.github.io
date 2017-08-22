@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
-<body>
+<link rel="stylesheet" type="text/css" href="../style/header-style.css">
+<link rel="stylesheet" type="text/css" href="../style/learn-more.css">
 
-<script src="atomic-symbols.js"></script>
-
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="../periodic-table.html">The Periodic Table of Elements</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="learn-more.html">Learn More</a></li>
-      <li><a href="about.html">About</a></li> 
+<header>
+<div class="header-main">
+  <div class="header-logo">
+    <img src="../assets/atom-logo.png" alt="atom" />
+    <h1><a href="../periodic-table-main.html">The Periodic Table of Elements</a></h1>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="learn-more.html">Learn More</a></li>
+      <li><a href="about.html">About</a></li>
     </ul>
   </div>
-</nav>
+</div>
+</header>
+
 <body>
+<div class="atomize-info">
+  <p>Find Elements in your name by entering it below.</p>
+</div>
 
-<p>Test with Elementize</p>
+<form id="name-to-atomize">
+    <input id="userName" type="text" placeholder="Find Atomic Symbols" required>
+    <input id="atomize" type="button" value="Atomize!" onClick="validateForm()">
+</form>
 
-<div id="like-elements"><div>
-
-<input id="userName">
-
-<button type="button" onclick="validateForm()">Spell Name with Atomic Symbols</button>
 
 <p id="elementize"></p>
 
+<script src="../scripts/atomic-symbols.js"></script>
+
 </body>
-<script src="script.js"></script>
 </html> 

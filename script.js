@@ -1,5 +1,3 @@
-var elem = document.getElementById("element_display");
-
 var elements = {
 				//Alkaline metals
                  "H": ["Hydrogen", "1.008", "the most abundant element in universe."],
@@ -164,7 +162,7 @@ var elements = {
 
 
 var likedElements = [];
-console.log(likedElements);
+//console.log(likedElements);
 
 function getElementInfo(element){
     

@@ -1,0 +1,39 @@
+.atomize-info{
+    color: #4a4a4a;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#name-to-atomize {
+    height:100px;
+    width:500px;
+    margin:50px auto;
+    padding-left: 250px;
+    padding-top: 50px;
+    background-color: transparent;
+}
+#userName {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+#atomize {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+#atomize:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+#elementize{
+    text-align: center;
+    font-family: Comic Sans;
+}
